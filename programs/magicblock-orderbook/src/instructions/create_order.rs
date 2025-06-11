@@ -34,6 +34,7 @@ pub struct CreateOrder<'info> {
 impl<'info> CreateOrder<'info> {
     pub fn create_order(&mut self) -> Result<()> {
         // TODO: Add order to order book.
+        // TODO: Delegate trader PDA to Magicblock?
         Ok(())
     }
 }

@@ -32,6 +32,8 @@ pub mod magicblock_orderbook {
         ctx.accounts.create_order()
     }
 
+    // TODO: Add instruction to cancel order.
+
     pub fn delegate_orderbook(ctx: Context<DelegateOrderbook>) -> Result<()> {
         ctx.accounts.delegate_orderbook()
     }
